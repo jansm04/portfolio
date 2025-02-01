@@ -1,6 +1,7 @@
 import Project from "@/components/ui/project";
 
 import Stride from "../../assets/stride.jpg";
+import Dm from "../../assets/dm.jpg"
 import Dav from "../../assets/dav.jpeg";
 import Rv from "../../assets/rv.jpeg";
 import Thumbhash from "../../assets/thumbhash.png";
@@ -37,6 +38,17 @@ export default function Projects() {
       </div>),
       site: "https://recursion-visualizer.vercel.app",
       repo: "https://github.com/jansm04/recursion-visualizer"
+    },
+    {
+      src: Dm,
+      title: "Dorm Manager",
+      description: (<div>
+        A relational database project built using OracleDB, to view and manage the state of a university 
+        residence. The database stores information about buildings, rooms, current occupants, maintenance 
+        requests, sublets and package deliveries. It was developed by me and two other students as a course project 
+        for CPSC 304 (Relational Databases).
+      </div>),
+      repo: "https://github.com/jansm04/dorm-manager"
     },
     {
       src: Thumbhash,
@@ -80,7 +92,7 @@ export default function Projects() {
   return (
     <div>
       <h1 className="font-bold text-xl mb-6">Projects</h1>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-16">
         {projects && projects.map((project, index) => (
           <Project 
             key={index} 
