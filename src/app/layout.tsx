@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex justify-center">
-          <div className="w-[800px] p-4">
+          <div className="w-[900px] max-w-[100vw] p-4">
             <Links/>
             {children}  
             <Footer/>

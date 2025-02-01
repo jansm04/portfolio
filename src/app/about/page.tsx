@@ -6,10 +6,10 @@ export default function About() {
   return (
     <div>
       <h1 className="font-bold text-xl mb-6">About Me</h1>
-      <div className="flex gap-6">
+      <div className="flex flex-col md:flex-row gap-6">
         <div className="flex flex-col gap-6">
           <div>
-            I am a 3rd Year Computer Science major at the <span className="underline"><a href="https://www.ubc.ca/">University of British Columbia</a></span>. 
+            I am a 3rd Year Computer Science major at the <span className="link"><a href="https://www.ubc.ca/">University of British Columbia</a></span>. 
             I was born and raised in Toronto, ON.
           </div>
           <div>
@@ -18,9 +18,9 @@ export default function About() {
           </div>
           <div>
             I came to UBC to study CS, and enrolled in the co-op program as quickly as possible.
-            So far, I have worked at <span className="underline"><a href="https://www.bmo.com/">BMO</a></span> as a Data Engineering Intern, and <span className="underline"><a href="https://www.centrilogic.com/">Centrilogic</a></span> as a Software Development Intern.
-            I am also a member of <span className="underline"><a href="https://www.ubclaunchpad.com/">Launch Pad</a></span>, a student-run software development club at UBC.
-            There, I am currently helping build a new website for the volunteers at <span className="underline"><a href="https://www.bcbrainwellness.ca/">BC Brain Wellness Program</a></span>.
+            So far, I have worked at <span className="link"><a href="https://www.bmo.com/">BMO</a></span> as a Data Engineering Intern, and <span className="link"><a href="https://www.centrilogic.com/">Centrilogic</a></span> as a Software Development Intern.
+            I am also a member of <span className="link"><a href="https://www.ubclaunchpad.com/">Launch Pad</a></span>, a student-run software development club at UBC.
+            There, I am currently helping build a new website for the volunteers at <span className="link"><a href="https://www.bcbrainwellness.ca/">BC Brain Wellness Program</a></span>.
           </div>
           <div>
             Outside of software development, I like playing hockey, skiing, running, and cycling. 
@@ -28,7 +28,7 @@ export default function About() {
           </div>
         </div>
         
-        <Image src={Me} alt="Me" className="w-[30%] h-[30%] rounded-lg shadow-lg" />
+        <Image src={Me} alt="Me" className="w-full md:w-[30%] md:h-[30%] rounded-lg shadow-lg" />
       </div>
     </div>
   );

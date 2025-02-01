@@ -20,7 +20,7 @@ export default function Project({
             <div>
                 <h1 className="font-bold text-lg mb-2">{title}</h1>
                 <div className="mb-2">{description}</div>
-                <div className="flex gap-2 underline">  
+                <div className="flex gap-2 underline link">
                     {site && <a href={site}>[site]</a>}
                     {repo && <a href={repo}>[repo]</a>}
                 </div>

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,17 +9,42 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --special: #164e63;
+  --special-light: #0e7490;
+  --page-width: 900px;
+  --my-font: 'Kameron', sans-serif;
+  --binary-font: 'Courier Prime', monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #151515;
     --foreground: #ededed;
+    --special: #164e63;
+    --special-light: #0e7490;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--my-font);
+}
+
+.link {
+  color: var(--special-light);
+}
+
+@keyframes scroll {
+  0% {transform: translateX(min(var(--page-width), 100vw));}
+  100% {transform: translateX(-100%);}
+}
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+}
+.paused {
+  animation-play-state: paused;
+}
+.running {
+  animation-play-state: running;
 }
