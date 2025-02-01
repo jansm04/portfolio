@@ -5,7 +5,7 @@ import Me from "../../assets/me.jpg";
 export default function About() {
   return (
     <div>
-      <h1 className="font-bold text-xl mb-6">About Me</h1>
+      <h1 className="font-bold text-2xl mb-6">About Me</h1>
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex flex-col gap-6">
           <div>

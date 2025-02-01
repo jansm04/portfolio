@@ -3,7 +3,7 @@ import Message from "@/components/home/message"
 export default function Home() {
   return (
   <div className="flex flex-col gap-6">
-    <h1 className="font-bold text-xl">Jan Smailbegovic</h1>
+    <h1 className="font-bold text-2xl">Jan Smailbegovic</h1>
     <Message />
     <div className="text-center">
       <h2 className="mb-3">Hi, I&apos;m Jan👋.</h2>

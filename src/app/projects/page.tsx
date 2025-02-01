@@ -91,7 +91,7 @@ export default function Projects() {
 
   return (
     <div>
-      <h1 className="font-bold text-xl mb-6">Projects</h1>
+      <h1 className="font-bold text-2xl mb-6">Projects</h1>
       <div className="flex flex-col gap-16">
         {projects && projects.map((project, index) => (
           <Project 
