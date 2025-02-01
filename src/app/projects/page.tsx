@@ -47,7 +47,7 @@ export default function Projects() {
         encoding of an image so that an approximate placeholder image can be displayed temporarily 
         while the original file is loading asynchronously. I wrote a C++ version of this algorithm as 
         I found it did not yet exist, and wanted to try combining the algorithm with 
-        the <span className="underline"><a href="https://lodev.org/lodepng/">LodePNG</a></span> library.
+        the <span className="link"><a href="https://lodev.org/lodepng/">LodePNG</a></span> library.
       </div>),
       repo: "https://github.com/jansm04/thumbhash-cpp"
     },
