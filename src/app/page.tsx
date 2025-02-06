@@ -9,7 +9,7 @@ export default function Home() {
       <h2 className="mb-3">Hi, I&apos;m Jan👋.</h2>
       <ul>
         <li>I&apos;m a third year computer science student at the university of british columbia.</li>
-        <li>I like to solve hard problems with good solutions.</li>
+        <li>I like to solve hard problems with efficient solutions.</li>
       </ul>
     </div>
     <div className="bg-[var(--foreground)] h-[1px]"/>

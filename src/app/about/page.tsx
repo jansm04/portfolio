@@ -13,11 +13,13 @@ export default function About() {
             I was born and raised in Toronto, ON.
           </div>
           <div>
-            I started writing code early in high school and pretty quickly realized it was something
+            I started writing code early in high school and very quickly realized it was something
             I wanted to pursue as a career.
           </div>
           <div>
-            I came to UBC to study CS, and enrolled in the co-op program as quickly as possible.
+            I came to UBC to study CS, and joined the co-op program in my 2nd year. Right now, I am super interested in algorithms, operating systems, and graphics.
+          </div>
+          <div>
             So far, I have worked at <span className="link"><a href="https://www.bmo.com/">BMO</a></span> as a Data Engineering Intern, and <span className="link"><a href="https://www.centrilogic.com/">Centrilogic</a></span> as a Software Development Intern.
             I am also a member of <span className="link"><a href="https://www.ubclaunchpad.com/">Launch Pad</a></span>, a student-run software development club at UBC.
             There, I am currently helping build a new website for the volunteers at <span className="link"><a href="https://www.bcbrainwellness.ca/">BC Brain Wellness Program</a></span>.
